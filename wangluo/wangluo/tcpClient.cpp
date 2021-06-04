@@ -44,7 +44,7 @@ public:
 			{
 				msg[s] = 0;
 				send(sock, msg, strlen(msg), 0);
-				size_t ss=revc(sock, msg, sizeof(msg) - 1, 0);
+				size_t ss=recv(sock, msg, sizeof(msg) - 1, 0);
 				if (ss > 0)
 				{
 					msg[ss] = 0;
