@@ -1,12 +1,45 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
+	int a;
+	scanf("please input a number%d",&a);
+	switch(a/10)
+	{
+	case 6: printf("D");
+		break;
+	case 7: printf("C");
+		break;
+	case 8: printf("B");
+		break;
+	case 9:
+	        printf("A");
+		break;
+	default: printf("E");
+		break;
+	}
 
-	return 0;
+	return 0;;
+
 }
+
+
+
+
+//#include<stdio.h>
+//int main()
+//{
+//	int sum=0;
+//	int i;
+//	for (i = 1; i <= 100; i++)
+//	{
+//		sum = sum + i;
+//	}
+//	printf("%d ", sum);
+//	return 0;
+//}
 
 
 

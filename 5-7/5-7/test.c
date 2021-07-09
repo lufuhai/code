@@ -70,18 +70,18 @@
 //	recursion();
 //	return 0;
 //}
-#include<stdio.h>
-int main()
-{
-	int i=1;
-	int result=1;
-	for (i = 1; i < 6; i++)
-	{
-		result *= i;
-	}
-	printf("1-5的和为%d\n", result);
-	return 0;
-}
+//#include<stdio.h>
+//int main()
+//{
+//	int i=1;
+//	int result=1;
+//	for (i = 1; i < 6; i++)
+//	{
+//		result *= i;
+//	}
+//	printf("1-5的和为%d\n", result);
+//	return 0;
+//}
 //#include<stdio.h>
 //int main()
 //{
